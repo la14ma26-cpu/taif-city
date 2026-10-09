@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    color: rgb(224, 209, 217);
+    margin: 10px;
+}
+
+
+.input {
+    font-size: larger;
+    border: 2px solid pink;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#org {
+    color: rgb(0, 0, 0)
+}
+
+li:hover {
+    color: rgb(255, 0, 242);
+}
+
+h2:focus {
+    outline: 2px solid blue;
+}
+
+
+h3:active {
+    background-color: brown;
+}
+
+
+p::before {
+    content: "**";
+    color: rgb(245, 149, 5);
+}
+
+p::after{
+    content: "**";
+    color: rgb(245, 149, 5);
+}
+
+
+h2 {
+    padding: 5px;
+    border: 5px solid #f80dc9;
+    margin: 5px;
+    color: #f80dc9;
+}
+
+
+header {
+    background-color: #ffe0f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #f80dc9;
+}
+
+
+nav {
+    margin: 15px;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #ff99d6;
+    border-radius: 10px;
+}
+
+nav h3 {
+    color: #c2188b;
+    margin-bottom: 10px;
+}
+
+ul,
+ol {
+    margin-left: 30px;
+}
+
+li {
+    padding: 5px;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+
+.box1 {
+    width: 650px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #f80dc9;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.box1 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    color: #555;
+    font-style: italic;
+}
+
+
+.box2 {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid #c2188b;
+    border-radius: 10px;
+    background-color: #ffeaf7;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+a {
+    color: #c2188b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ffd1eb;
+    border-radius: 8px;
+}
+
+footer p {
+    color: #7a1760;
+}
+body {
+    background-color: #fff5fc;
+    background-image: url("img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
